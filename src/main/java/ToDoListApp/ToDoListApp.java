@@ -359,6 +359,7 @@ public class ToDoListApp extends javax.swing.JFrame {
     private void btnReadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReadActionPerformed
         read();
         reset();
+        JOptionPane.showMessageDialog(null, "Lista de tareas Actualizada");
     }//GEN-LAST:event_btnReadActionPerformed
 
     private void btnCreateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCreateActionPerformed
